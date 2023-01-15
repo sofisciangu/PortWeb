@@ -1,0 +1,27 @@
+.row{
+    padding: 20px;
+}
+div{
+    background-color: aquamarine;
+    text-align: left;
+}
+@media (min-width:576px){
+    #fotoperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px grey;
+        left: 2%;
+        top: 300px;
+    }
+}
+@media (max-width:575px){
+    #fotoperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px grey;
+        left: 33%;
+        top: 300px;
+    }
+}
