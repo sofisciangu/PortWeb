@@ -2,7 +2,7 @@
     padding: 20px;
 }
 div{
-    background-color: aquamarine;
+    background-color: rgb(137, 137, 139);
     text-align: left;
 }
 @media (min-width:576px){
