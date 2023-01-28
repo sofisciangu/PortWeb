@@ -13,16 +13,17 @@ div#profile-background{
 }
 #profile-background img{
     width: 100%;
-    border-radius: 32px 32px 0;
+    border-radius: 32px 32px 32px;
     height: 50%;
     margin-bottom: auto;
 }
-#fotoperfil{
-    width: 15%;
-    height: 20%;
+.profile-image{
     border-radius: 50%;
+    width:152px;
+    height:152px;
+    margin-top: -110px;
     z-index: 1;
-    margin-top: 500px;
+    background: url(../../../assets/Fotoperfil.jpeg) no repeat;
 
 }
 #info-details img{
