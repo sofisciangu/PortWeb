@@ -1,0 +1,25 @@
+{
+    "name": "Sofìa Sciangula",
+    "image": "../../../assets/Fotoperfil.jpeg",
+    "position": "Técnica química",
+    "company":{
+                "name": "Norces",
+                "img": "../../../assets/Norces",
+                "url": "#"
+            },
+    "school": {
+        "name": "Universidad Tecnológica Nacional",
+        "img": "../../../assets/UTN",
+        "url":"#"
+    },
+    "ubicacion": "Rosario",
+    "about": "Técnica química universitaria",
+
+    "archivements": [{
+        "name": "Huaro App"
+        },
+     {
+        "name": "Lantenrs 19/09"
+     }
+    ]
+}
