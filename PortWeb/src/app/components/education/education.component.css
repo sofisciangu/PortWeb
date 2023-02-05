@@ -1,26 +1,4 @@
-.row{
-    padding: 20px;
-}
-div{
-
-    text-align: left;
-}
-.mat-card{
-    border-radius: 32px;
-    margin: 10px 10px;
-    padding: 20px;
-    border-color: rgb(155, 154, 154);
-}
-.mat-card#card-titles{
-    padding: 0;
-}
 h1{
-    display: inline;
-    font-family: sans-serif;
-    font-size: 250%;
-    font: bold;
-
-}h1{
     display: inline;
     font-family: sans-serif;
     font-size: 250%;
@@ -39,9 +17,19 @@ h4{
     font-size: 150%;
     font: bold;
 }
-h4{
+h5{
     display: inline;
     font-family: sans-serif;
     font-size: 135%;
     font: bold;
+}
+
+.mat-card{
+    border-radius: 32px;
+    margin: 10px 10px;
+    padding: 20px;
+    border-color: rgb(155, 154, 154);
+}
+.mat-card#card-education{
+    padding: 0;
 }

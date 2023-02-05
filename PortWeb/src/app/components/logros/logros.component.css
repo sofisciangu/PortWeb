@@ -7,3 +7,19 @@
 .mat-card#card-titles{
     padding: 0;
 }
+div#info-actions button{
+    margin-right: 8px;
+  }
+  h1{
+    display: inline;
+    font-family: sans-serif;
+    font-size: 250%;
+    font: bold;
+    text-indent: 2%;
+}
+h3{
+    display: inline;
+    font-family: sans-serif;
+    font-size: 200%;
+    font: bold;
+}

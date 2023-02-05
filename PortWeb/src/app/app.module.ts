@@ -12,6 +12,7 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import {HttpClientModule} from'@angular/common/http';
 import { AptitudesyvaloracionesComponent } from './components/aptitudesyvaloraciones/aptitudesyvaloraciones.component';
 import { LogrosComponent } from './components/logros/logros.component';
+import { EducationComponent } from './components/education/education.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { LogrosComponent } from './components/logros/logros.component';
     ExperienciaComponent,
     AptitudesyvaloracionesComponent,
     LogrosComponent,
+    EducationComponent,
 
 
   

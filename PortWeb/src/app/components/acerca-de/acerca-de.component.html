@@ -1,18 +1,52 @@
 <div class="card mat-card">
     <div class="card-titles">
-        <h2>Acerca de</h2>
-        <div class="btn-edit" onclick="cambiar_parrafo()">
+        <h1>Acerca de</h1>
+        <div>
+        <button class="btn-edit" onclick="cambiar_parrafo()">
         <a href="#" class="btn-right">
             <i class="fa fa-pen"></i>
         </a>
-
+        </button>
     </div>
-        <p id="text-acercade">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sunt minus officia, dolor illum labore in accusamus iste libero modi sed! Fugiat, eveniet omnis vero consequatur sapiente reprehenderit enim quidem!</p>
+        <p id="text-acercade">Soy una persona proactiva que todo el tiempo está buscado desafíos nuevos</p>
     </div>
     <div>
         <input id="edit-acercade" type="text" oninput="myFunction2(this.value)" style="display: none;">
     </div>
 </div>
+
+<script>
+    function cambiar_parrafo(){;
+    document.getElementById("edit-acercade").style.display="block";
+    let text = document.getElementById("text-acercade").innerText;
+    console.log(texto);
+};
+function myFunction2(valor){
+    document.getElementById("text-acercade").innerText=valor;
+};
+let textarea=document.getElementById("edit-acercade")
+textarea.addEventListener('keyup', (e) =>{
+    logMessage('Key "${e.key}" released [event: keyup ]');
+    if (e.key=="Enter"){
+        document.getElementById("edit-acercade").style.display="none"
+    }
+});
+function showFile(input){
+    let file=input.files[0];
+    alert('File name: ${file.name}')
+    alert('Last modified: ${file.lastModified}');
+
+    let reader= new FileReader();
+    reader.readAsText(file);
+    reader.onload=function(){
+        console.log(reader.result);
+        document.getElementById("text-acercade").innerText=reader.result;
+        };
+        reader.onerror=function(){
+            console.log(reader.error);
+        };
+}
+</script>
 
 <!-- <div class="card mat-card">
     <div class="card-titles">
