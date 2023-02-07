@@ -33,3 +33,6 @@ h5{
 .mat-card#card-education{
     padding: 0;
 }
+#btn-right{
+    margin-right: 0em;
+}
