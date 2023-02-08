@@ -1,7 +1,7 @@
 {
-    "name": "Sofìa Sciangula",
+    "nombre": "Sofìa Sciangula",
     "image": "../../../assets/Fotoperfil.jpeg",
-    "position": "Técnica química",
+    "position": "Full Stack Developr JR/ Técnica química",
     "company":{
                 "name": "Norces",
                 "img": "../../../assets/Norces",
@@ -12,14 +12,43 @@
         "img": "../../../assets/UTN",
         "url":"#"
     },
-    "ubicacion": "Rosario",
+    "ubicacion": "Rosario,Argentina",
     "about": "Técnica química universitaria",
+   
+    "experience":[{
+        "position":"Asesoramiento técnico/ventas en Norces",
+        "company": "Norces",
+        "img":"../../../assets/Norces",
+        "start": "feb 2017",
+        "end":"actualidad",
+        "timeElapsed": "6 años"
+    }    ],
+    
+    "education":[{
+        "school":"UTN FRRo",
+        "title":"Técnica universitaria en química",
+        "carrer":"Ingeniería Química",
+        "start":"2017",
+        "end":"2013"
+},   
+                {
+        "school":"UTN FRRo",
+        "title":"Ingeniería Química",
+        "carrer":"Ingeniería Química",
+        "start":"2017",
+        "end":"incompleto"},
+        {
+        "school":"EETP N° 432",
+        "title":"Polimodal: Humanidades y ciencias sociales",
+        "start":"2007",
+        "end":"2006"}
+             ],
+    "aptitudes": [{
+        "name":"resolucion de problemas"
+    }
+    ],
 
-    "archivements": [{
+    "archivements": {
         "name": "Huaro App"
-        },
-     {
-        "name": "Lantenrs 19/09"
-     }
-    ]
-}
+        }
+    }
