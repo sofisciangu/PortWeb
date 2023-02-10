@@ -22,7 +22,16 @@
         "start": "feb 2017",
         "end":"actualidad",
         "timeElapsed": "6 años"
-    }    ],
+    },
+    {
+        "position":"Inspectora en el departamento de Fiscalización ambiental",
+        "company": "Municipalidad de Rosario",
+        "img":"../../../assets/Muni",
+        "start": "enero 2014",
+        "end":"enero 2017",
+        "timeElapsed": "3 años"
+    }
+],
     
     "education":[{
         "school":"UTN FRRo",
@@ -45,7 +54,13 @@
              ],
     "aptitudes": [{
         "name":"resolucion de problemas"
-    }
+    },
+                {
+        "name": "proactividad"
+                },
+                {
+        "name":"optimización de recursos"
+                }
     ],
 
     "archivements": {
