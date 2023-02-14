@@ -14,7 +14,7 @@ div#profile-background{
 #profile-background img{
     width: 100%;
     border-radius: 32px 32px 32px;
-
+    height: 20em;
     margin-bottom: auto;
 }
 .profile-image{
