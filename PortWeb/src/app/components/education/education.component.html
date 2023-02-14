@@ -7,17 +7,17 @@
     </div>
     <div>
         <ul class="items-list">
-            <li>
+            <li *ngFor="let education of educationList">
                 <div class="data-container">
                     <a href="#">
                         <div class="logo-image-container">
-                            <img class="logo-image" src="../../../assets/utn.PNG">
+                            <img class="logo-image" [src]="education.img">
                         </div>
                         <div class="list-info">
                             <div>
-                                <h3>UTN FRRo</h3>
-                                <h5>Técnica universitaria en química</h5>
-                                <p><time>2007</time>-<time>2013</time></p>
+                                <h3>{{education.school}}</h3>
+                                <h5>{{education.title}}</h5>
+                                <p><time>{{education.star}}</time>-<time>{{education.end}}</time></p>
                             </div>
                         </div>
                     </a>
@@ -27,46 +27,6 @@
                 </div>
                 </div>
             </li>
-            <li>
-                <div class="data-container">
-                    <a href="#">
-                        <div class="logo-image-container">
-                            <img class="logo-image" src="../../../assets/utn.PNG">
-                        </div>
-                        <div class="list-info">
-                            <div>
-                                <h3>UTN FRRo</h3>
-                                <h5>Ingeniería química</h5>
-                                <p><time>2007</time>-<time>Incompleto</time></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="data-control">
-                    <div class="btn-edit"><a href="#" class="btn-right" margin="100%"><i class="fa fa-pen"></i></a>
-                </div>
-                </div>
-            </li>
-            <li>
-                <div class="data-container">
-                    <a href="#">
-                        <div class="logo-image-container">
-                            <img class="logo-image" src="../../../assets/minist.sta.fe.PNG">
-                        </div>
-                        <div class="list-info">
-                            <div>
-                                <h3>EETP N° 432</h3>
-                                <h5>Polimodal: Humanidades y ciencias sociales</h5>
-                                <p><time>2002</time>-<time>2006</time></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="data-control">
-                    <div class="btn-edit"><a href="#" class="btn-right" margin="100%"><i class="fa fa-pen"></i></a>
-                </div>
-                </div>
-            </li>
-        </ul>
+         </ul>
     </div>
 </div>

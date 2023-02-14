@@ -3,27 +3,27 @@
 
         <div id="info" style="padding: 16px;">
             <div id="info-img">
-                <img class="profile-image" src="../../../assets/Fotoperfil.jpeg" alt="fotoperfil" title="Sofía Sciangula"></div>
+                <img class="profile-image" [src]="miPortfolio.subject.image" alt="fotoperfil" title="Sofía Sciangula"></div>
                 <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>>
         </div>
             <div id="info-data">
                 <div>
-                    <h1>{{miPortfolio.nombre}}</h1>
-                    <div id="info-company">{{miPortfolio.position}}</div>
+                    <h1>{{miPortfolio.subject.nombre}}</h1>
+                    <div id="info-company">{{miPortfolio.subject.position}}</div>
                     <div id="info-contact"> 
-                        <span><b>{{miPortfolio.ubicacion}}</b></span>
+                        <span><b>{{miPortfolio.subject.ubicacion}}</b></span>
                         <span><a href="#" style="color: blue;"> Informacion de contacto</a> </span>
                     </div>
                 </div>
             <ul id="info-details" style="line-height: 0.5px; font-size: 10pt;">
                 <li><a href="#">
                     <img src="../../../assets/logoAP.PNG" alt="INTI" width="25" height="25" >
-                        <h6>INTI</h6>
+                        <h6>{{miPortfolio.subject.company}}</h6>
                 </a></li>
 
                 <li><a href="#">
                     <img src="../../../assets/utn.PNG" alt="UTN" width="25" height="25" >
-                        <h6>Universisdad Tecnologica Nacional</h6>
+                        <h6>{{miPortfolio.subject.study}}</h6>
                 </a></li>
             </ul>
             </div>
