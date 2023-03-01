@@ -1,1 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+h1{
+    color: black;
+    display: inline;
+    font-family: sans-serif;
+    font-size: 250%;
+    font: bold;
+    text-indent: 2%;
+}
+h2{
+    color: black;
+    display: inline;
+    font-family: sans-serif;
+    font-size: 225%;
+    font: bold;
+    text-indent: 2%;
+}
+h3{
+    color: black;
+    display: inline;
+    font-family: sans-serif;
+    font-size: 200%;
+    font: bold;
+}
+h4{
+    color: black;
+    display: inline;
+    font-family: sans-serif;
+    font-size: 150%;
+    font: bold;
+
+}
+h6{
+    color: black;
+    display: inline;
+    font-family: sans-serif;
+    font-size: 125%;
+    font: bold;
+
+}
+h5{
+    color: black;
+    display: inline;
+    font-family: sans-serif;
+    font-size: 135%;
+    font: bold;
+
+}
+.btn-edit{
+    color: blue;
+}
+.btn-right{
+    margin: 90%;
+    color: black;
+    box-shadow: 0px 1px 0px 0px;
+}
