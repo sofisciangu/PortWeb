@@ -13,6 +13,8 @@ import { AptitudesyvaloracionesComponent } from './components/aptitudesyvaloraci
 import { LogrosComponent } from './components/logros/logros.component';
 import { EducationComponent } from './components/education/education.component';
 import { HttpClient } from '@angular/common/http';
+import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { HttpClient } from '@angular/common/http';
     AptitudesyvaloracionesComponent,
     LogrosComponent,
     EducationComponent,
+    HomeComponent,
+    LoginComponent,
 
   ],
   imports: [
