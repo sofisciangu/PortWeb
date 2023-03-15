@@ -14,6 +14,7 @@ import { LogrosComponent } from './components/logros/logros.component';
 import { EducationComponent } from './components/education/education.component';
 import { LoginComponent } from './components/login/login.component';
 import { HomeComponent } from './components/home/home.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { HomeComponent } from './components/home/home.component';
     EducationComponent,
     LoginComponent,
     HomeComponent,
+    FooterComponent,
  
 
   ],
