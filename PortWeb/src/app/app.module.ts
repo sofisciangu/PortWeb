@@ -12,7 +12,9 @@ import {HttpClientModule} from'@angular/common/http';
 import { AptitudesyvaloracionesComponent } from './components/aptitudesyvaloraciones/aptitudesyvaloraciones.component';
 import { LogrosComponent } from './components/logros/logros.component';
 import { EducationComponent } from './components/education/education.component';
-import { HttpClient } from '@angular/common/http';
+import { LoginComponent } from './components/login/login.component';
+import { HomeComponent } from './components/home/home.component';
+
 
 @NgModule({
   declarations: [
@@ -24,6 +26,9 @@ import { HttpClient } from '@angular/common/http';
     AptitudesyvaloracionesComponent,
     LogrosComponent,
     EducationComponent,
+    LoginComponent,
+    HomeComponent,
+ 
 
   ],
   imports: [
