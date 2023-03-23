@@ -1,5 +1,7 @@
+
 <div class="card mat-card">
     <div id="experience">
+        
         <div class="card-title">
     <h1>Experiencia Laboral</h1>
     <div class="btn-edit"><a href="#" class="btn-right" margin="100%"><i class="fa fa-pen"></i></a>
@@ -10,9 +12,6 @@
             <li *ngFor="let experience of experienceList">
                 <div class="data-container">
                     <a href="#">
-                        <div class="logo-image-container">
-                            <img class="logo-image" [src]="experience.img">
-                        </div>
                         <div class="list-info">
                             <div>
                                 <h3>{{experience.position}}</h3>
@@ -31,5 +30,4 @@
         </ul>
     </div>
 </div>
-
 
