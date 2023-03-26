@@ -1,4 +1,7 @@
 {
+    "email":"sofi.sciangu@gmail.com",
+    "password":"portfolio123",
+
     "subject":{
         "nombre": "Sofía Sciangula",
         "image": "../../../assets/Fotoperfil.jpeg",
@@ -62,10 +65,13 @@
                 },
                 {
         "name":"optimización de recursos"
-                }
+                },
+                {
+        "name":"trabajo en equipo"
+            }        
     ],
 
     "archivements": {
-        "name": "Huaro App"
+        "name": "Portfolio Web-Argentina Programa 4.0"
         }
     }
