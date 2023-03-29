@@ -1,9 +1,5 @@
-.mat-card{
-    border-radius: 32px;
-    margin: 10px 10px;
+.apyval{
     padding: 20px;
-    border-color: rgb(155, 154, 154);
+    background-color: rgb(202, 202, 200);
 }
-.mat-card#card-titles{
-    padding: 0;
-}
+

@@ -16,6 +16,7 @@ import { LoginComponent } from './components/login/login.component';
 import { HomeComponent } from './components/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HysComponent } from './components/hys/hys.component';
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     LoginComponent,
     HomeComponent,
     FooterComponent,
+    HysComponent,
  
 
   ],

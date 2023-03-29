@@ -1,15 +1,26 @@
-<div class="card mat-card">
-    <div class="card-titles">
-        <h1>Acerca de</h1>
-        <div>
-        <button class="btn-edit" onclick="cambiar_parrafo()">
-        <a href="#" class="btn-right"><i class="fa fa-pen"></i></a>
-        </button>
+<div class="row">
+    
+    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+        <p id="info-company">{{miPortfolio.subject.position}}</p>
+        <span><b>{{miPortfolio.subject.ubicacion}}</b></span>
     </div>
-        <p id="text-acercade">Soy una persona proactiva que todo el tiempo está buscado desafíos nuevos</p>
+       
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+            <h1>Acerca de mí</h1>
+            <p>Soy yo</p>
     </div>
-    <div>
-        <input id="edit-acercade" type="text" oninput="myFunction2(this.value)" style="display: none;">
+
+    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">        
+        <ul id="info-details" style="line-height: 0.5px; font-size: 10pt;">
+            <li><a href="#">
+            <img src="../../../assets/logoAP.PNG" alt="INTI" width="25" height="25" >
+                <h6>{{miPortfolio.subject.company}}</h6>
+            </a></li>
+            <li><a href="#">
+            <img src="../../../assets/utn.PNG" alt="UTN" width="25" height="25" >
+                <h6>{{miPortfolio.subject.study}}</h6>
+            </a></li>
+        </ul>
+
     </div>
 </div>
-

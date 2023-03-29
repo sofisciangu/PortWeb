@@ -1,19 +1,18 @@
-.logo{
-    width: 30px;
-    height: 1%;
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
 }
 .redes{
-    width: 30px;
-    display: inline-flex
+    margin-right: 0.5em;
 }
-
-
+#logoAP{
+    width: 150px;
+}
+img{
+    width: 50px;
+}
 .btn{
     border-width: medium;
-}
-.row{
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between
 }

@@ -1,7 +1,5 @@
-
-<div class="card mat-card">
+<div class="experiencia">
     <div id="experience">
-        
         <div class="card-title">
     <h1>Experiencia Laboral</h1>
     <div class="btn-edit"><a href="#" class="btn-right" margin="100%"><i class="fa fa-pen"></i></a>
@@ -12,15 +10,18 @@
             <li *ngFor="let experience of experienceList">
                 <div class="data-container">
                     <a href="#">
+
                         <div class="list-info">
                             <div>
                                 <h3>{{experience.position}}</h3>
                                 <div class="data-control">
                                     <div class="btn-edit"><a href="#" class="btn-right" margin="100%"><i class="fa fa-pen"></i></a>                </div>
                                 </div>
-                                <p>{{experience.company}} - <span>{{experience.type}}</span></p>
-                                <p><time>{{experience.star}}</time>-<time>{{experience.end}}</time></p>
-                                <h5>{{experience.city}}</h5>
+
+                                <h5>{{experience.company}} - <span>{{experience.type}}</span></h5>
+                                <p><time>{{experience.start}}</time>-<time>{{experience.end}}</time></p>
+                                <p>{{experience.city}}</p>
+
                             </div>
                         </div>
                     </a>
@@ -30,4 +31,3 @@
         </ul>
     </div>
 </div>
-
