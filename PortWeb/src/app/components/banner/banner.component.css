@@ -1,11 +1,11 @@
-.mat-card{
-    border-radius: 32px;
-    margin: 10px 10px;
-    padding: 20px;
-    border-color: rgb(155, 154, 154);
+.banner{
+width: 100%;
+background-color: rgb(212, 212, 203);
+
 }
-.mat-card#first-card{
-    padding: 0;
+div#info-data{
+    display: inline;
+
 }
 div#profile-background{
     display: flex;
@@ -13,7 +13,6 @@ div#profile-background{
 }
 #profile-background img{
     width: 100%;
-    border-radius: 32px 32px 32px;
     height: 20em;
     margin-bottom: auto;
 }
@@ -24,13 +23,8 @@ div#profile-background{
     margin-top: -110px;
     z-index: 1;
     background: url(../../../assets/Fotoperfil.jpeg) no repeat;
+}
 
-}
-#info-details img{
-    width: 50%;
-    height: 50%;
-    margin-left: 0;
-}
 @media (min-width:576px){
     #fotoperfil{
         position: absolute;
@@ -51,69 +45,17 @@ div#profile-background{
         top: 300px;
     }
 }
-div#info-actions{
-    display: flex;
-}
-div#info-actions button{
-    margin-right: 8px;
-}
-div#info-contact span{
-    font-size: 1rem;
-    font-weight: 400;
-}
-div#info-contact span a{
-    color: blue;
-    touch-action: manipulation;
-    text-decoration: none;
-}
+
+
 div#info-company{
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.25;
 }
-div#info-data{
-    display: flex;
-    justify-content: space-between;
-}
-div#info-data h1{
-    font-size: 1.8rem;
-    display: inline;
-    font-weight: 500;
-    line-height: 1.25;
-    word-wrap: break-word;
-    word-break: break-word;
-}
-div#info-data ul#info-details{
-    width: 232px;
-    list-style: none;
-    flex-shrink: 0;
-}
-div#info-data ul#info-details li a{
-    color: black;
-    display: flex;
-    text-decoration: none;
-}
-div#info-data ul#info-details li h2{
-    font-size: 1rem;
-    font-weight: 500;
-    align-self: center;
-    vertical-align: baseline;
-}
-div#info-data ul#info-details li a img{
-    width: 32px;
-    height: 32px;
-    margin-right: 8px;
-}
-ul.items-list{
-    list-style: none inside;
-}
-ul.items-list li div.data.container{
-    flex-grow: 1;
-}
-ul.items-list li div.data.container a{
-    display: flex;
-    color: black;
-}
+
+
+
+
 
 
 
